@@ -1,12 +1,20 @@
 import { ThemeConfig } from "vuepress-theme-vt";
 import { defineConfig4CustomTheme } from "vuepress/config";
 
+module.exports = {
+  plugins: {
+    '@vuepress/plugin-google-analytics': {
+      id: 'UA-133779076-1',
+    },
+  }
+}
+
 export = defineConfig4CustomTheme<ThemeConfig>((ctx) => ({
   theme: "vt",
   title: "Home",
   themeConfig: {
     enableDarkMode: true,
-    repo: "https://github.com/ulivz/vuepress-theme-vt",
+    repo: "https://github.com/SamsungDiscord/samsungdiscord.github.io",
     // logo: "/logo.svg",
     nav: [
       { text: "Guide", link: "/guide/" },

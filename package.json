@@ -7,6 +7,9 @@
     "build": "vuepress build docs --temp .temp"
   },
   "devDependencies": {
+    "@vuepress/plugin-google-analytics": "^1.9.7",
+    "@vuepress/plugin-register-components": "^1.9.7",
+    "markdown-it": "^8.4.2",
     "vuepress": "1.9.7",
     "vuepress-theme-vt": "0.4.1"
   },

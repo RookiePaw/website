@@ -1,12 +1,16 @@
 lockfileVersion: 5.4
 
 specifiers:
+  '@vuepress/plugin-register-components': ^1.9.7
+  markdown-it: ^8.4.2
   vuepress: 1.9.7
   vuepress-theme-vt: 0.4.1
 
 devDependencies:
+  '@vuepress/plugin-register-components': 1.9.7
+  markdown-it: 8.4.2
   vuepress: 1.9.7
-  vuepress-theme-vt: 0.4.1
+  vuepress-theme-vt: 0.4.1_markdown-it@8.4.2
 
 packages:
 
@@ -5507,11 +5511,13 @@ packages:
       markdown-it: 8.4.2
     dev: true
 
-  /markdown-it-attrs/2.4.1:
+  /markdown-it-attrs/2.4.1_markdown-it@8.4.2:
     resolution: {integrity: sha512-BASnIYS+JLpjlhDf7jLV8VOuccxjfDDnQcz5dLfgPsYw8OsgbASexADdIkF7tIdGn+jaQSA4qOZXM3v3W3JBCg==}
     engines: {node: '>=6'}
     peerDependencies:
       markdown-it: ^8.4.2
+    dependencies:
+      markdown-it: 8.4.2
     dev: true
 
   /markdown-it-chain/1.3.0_markdown-it@8.4.2:
@@ -8265,7 +8271,7 @@ packages:
       smoothscroll-polyfill: 0.4.4
     dev: true
 
-  /vuepress-theme-vt/0.4.1:
+  /vuepress-theme-vt/0.4.1_markdown-it@8.4.2:
     resolution: {integrity: sha512-shIDENWpqtcNNvxMpaGLFjLcAd2/WKospW35rDIhkTh7U6AiGeythJiMzd9E4ET78HdqZ1k3E2XuRqZ1e8UBQg==}
     dependencies:
       '@vuepress/plugin-active-header-links': 1.9.7
@@ -8277,7 +8283,7 @@ packages:
       flexsearch: 0.6.32
       html-to-text: 7.1.1
       lodash: 4.17.21
-      markdown-it-attrs: 2.4.1
+      markdown-it-attrs: 2.4.1_markdown-it@8.4.2
       node-google-translate-skidz: 1.1.2
       prism-themes: 1.9.0
       stylus: 0.54.8
