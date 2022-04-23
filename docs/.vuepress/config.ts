@@ -4,7 +4,7 @@ import { defineConfig4CustomTheme } from "vuepress/config";
 module.exports = {
   plugins: {
     '@vuepress/plugin-google-analytics': {
-      id: 'UA-133779076-1',
+      id: 'G-48TEMX0TB2',
     },
   }
 }
