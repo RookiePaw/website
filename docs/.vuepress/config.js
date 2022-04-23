@@ -35,7 +35,7 @@ module.exports = (0, config_1.defineConfig4CustomTheme)(function (ctx) { return 
                 {
                     title: "Introduction",
                     collapsable: false,
-                    children: ["/forms/", "/forms/getting-started"],
+                    children: ["/forms/"],
                 },
             ],
         },
