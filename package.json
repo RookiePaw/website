@@ -11,8 +11,12 @@
     "@vuepress/plugin-register-components": "^1.9.7",
     "markdown-it": "^8.4.2",
     "vuepress": "1.9.7",
+    "vuepress-plugin-element-ui": "^1.1.0",
     "vuepress-theme-vt": "0.4.1"
   },
   "description": "{{ description }}",
-  "author": "{{ username }} <{{ email }}>"
+  "author": "{{ username }} <{{ email }}>",
+  "dependencies": {
+    "element-ui": "^2.15.8"
+  }
 }
