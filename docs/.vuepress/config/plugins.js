@@ -27,7 +27,7 @@ module.exports = [
 	[
 		"@vuepress/google-analytics",
 		{
-			id: "G-48TEMX0TB2",
+			'id': "G-48TEMX0TB2",
 		},
 	],
 	["vuepress-plugin-dehydrate"],
