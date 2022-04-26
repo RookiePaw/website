@@ -30,9 +30,9 @@ A USB Cable that handles transferring data (most)
 A few programs, i'll list the programs for different systems :) 
    
 Here are the best places to get firmware for your device
-Frija (windows app)
-SamFW (website, note: use Direct Download or Download On Website only)
-Odin is a program created by Samsung itself which allows this process of flashing firmware. However, their official version does not allow cross flashing (flashing a US carrier model to US unlocked for example). As a result, unofficial versions have been developed to workaround this and bypass any other restrictions. The latest version available is 3.14.1 and I will link versions that allow cross flashing. These modded versions are safe to use (I’ve used them myself and have personally helped others with these versions). Download
+[Frija](https://github.com/SlackingVeteran/frija-dev/releases) (windows app)
+[Samfw](https://samfw.com/) (website, note: use Direct Download or Download On Website only)
+[Odin is a program created by Samsung itself which allows this process of flashing firmware. However, their official version does not allow cross flashing (flashing a US carrier model to US unlocked for example). As a result, unofficial versions have been developed to workaround this and bypass any other restrictions. The latest version available is 3.14.1 and I will link versions that allow cross flashing. These modded versions are safe to use (I’ve used them myself and have personally helped others with these versions).](https://forum.xda-developers.com/attachments/odin3-v3-14-1_3b_patched-zip.5158507/ )
 
 ### Using (and Understanding) Your Downloads
 
