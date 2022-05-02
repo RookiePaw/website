@@ -1,8 +1,7 @@
 # Firmware
 
-# Introduction 
+## Introduction 
 If you’re here, you’re probably looking to flash a firmware for your phone! No need to worry if you have no experience flashing firmware, it isn’t too complicated. With experience in this process, I will try my best to explain how to do this in the most simple way possible. If you’ve never done this before, I recommend reviewing this guide multiple times to get a better grasp of what to do and reduce your chances of user error. I am not responsible for any potential damage to your device (if anything goes wrong, worst case scenario is that your device gets soft bricked, which is fixable via this process anyway!
-
 
 ## Why flash a different firmware? 
 
@@ -39,7 +38,7 @@ Here are the best places to get firmware for your device
 
 After downloading the corresponding programs, there will be a few simple concepts you will need to understand, starting with Frija
 
-![Frija](https://ushie.github.io/assets/frijapreview.png)
+![Frija Preview](docs\.vuepress\public\frijapreview.png)
 
 - **Model**: This is the model number of your device. As shown in the image, I have the model number of a US unlocked Galaxy Note 9 (N960U1). Here, you will input the model number of the firmware you want to download (or the one you currently have). Model numbers can be found in your device’s settings in case you don’t know yours (for example, the US unlocked model number ends with a U1, compared to a U for carrier models).
 
@@ -51,7 +50,7 @@ CSCs elsewhere: A country may have its own CSC, alongside carrier CSCs as well. 
 
 - Once you have entered your corresponding model number and CSC, press “Check Update” to retrieve the latest firmware version available and download it. Once the download is complete (do not close Frija until it is done decrypting), unzip the folder and you should see 5 files in the unzipped folder, as shown below:
 
-![filecontent](https://ushie.github.io/assets/filecontent.png)
+![Files seen when unzipped](docs\.vuepress\public\filecontent.png)
 
 - These files will then be used in the flashing process accordingly
 
@@ -59,12 +58,12 @@ CSCs elsewhere: A country may have its own CSC, alongside carrier CSCs as well. 
 
 Once you have the files, you’re ready to flash the firmware! Open up Odin and you will be greeted with this page.
 
-![odin](https://ushie.github.io/assets/odinpreview.png)
+![Odin Preview](docs\.vuepress\public\odinpreview.png)
 
 
 Then, you will need to put your phone in download mode. This may vary by model, but on the S20 (for example), you can enter download mode through powering off your phone, then by pressing and holding both volume buttons when it’s off. I recommend searching how to boot into download mode (e.g., Galaxy S10 download mode) if you have another device. Regardless, you should see this screen if you do it correctly (then press volume up to get to the second screen).
 
-![downloadmode](https://ushie.github.io/assets/downloadmode.png)
+![downloadmode](docs\.vuepress\public\downloadmode.png)
 
 
 - Now plug in your phone. Odin will recognize that a device has been connected and should show up on the screen. As shown above in the Odin screenshot, there are 5 boxes where you will place the firmware files you downloaded previously (BL, AP, CP, and CSC; USERDATA will not be used). Click on each name and select the corresponding file (e.g., BL file goes into the BL slot, CP file into CP slot, and so on). Your computer may hang when doing the AP file (it’s a big file), but be patient and let it continue. Now, regarding CSC, you will have two options. The CSC file will wipe your device, while the HOME_CSC file will keep all your data intact. You can choose whatever is best for you, but I recommend wiping and flashing a clean install (regardless, backup your data beforehand). Now that all your files are placed, click the “Start” button to begin flashing.
@@ -75,7 +74,7 @@ Then, you will need to put your phone in download mode. This may vary by model, 
 
 Downgrading is also possible, given that the version you are trying to flash is on the same bootloader version as the current firmware on your device. An example:
 
-![binary](https://ushie.github.io/assets/BLversion.png)
+![Binary version example](docs\.vuepress\public\binary.png)
 
 My baseband version is G960U1UES9FUA1, and my bootloader version is on 9 (denoted by the fifth value from the right, shown in bold). This means I can only flash firmware that is equal or over this version. If I were to try flashing an older firmware version with a previous bootloader version (8, 7, etc.), it would not work, so keep this in mind. Do not attempt to flash firmware on a lower bootloader version as it may soft brick your device. (P.S: Note that Frija downloads the latest available firmware for your device, so if you wish to downgrade, you would have to use SamFW, please remember to only use the Direct Download option as the Google Drive option is not recommended by me for specific reasons)
 Keep in mind that since you won't be on your carrier's firmware, you will not have the carrier's unlock portal in the settings app, you'll have to find other means to unlock your device if it happens to be SIM locked to the carrier.
