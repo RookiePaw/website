@@ -79,4 +79,4 @@ Downgrading is also possible, given that the version you are trying to flash is 
 My baseband version is G960U1UES9FUA1, and my bootloader version is on 9 (denoted by the fifth value from the right, shown in bold). This means I can only flash firmware that is equal or over this version. If I were to try flashing an older firmware version with a previous bootloader version (8, 7, etc.), it would not work, so keep this in mind. Do not attempt to flash firmware on a lower bootloader version as it may soft brick your device. (P.S: Note that Frija downloads the latest available firmware for your device, so if you wish to downgrade, you would have to use SamFW, please remember to only use the Direct Download option as the Google Drive option is not recommended by me for specific reasons)
 Keep in mind that since you won't be on your carrier's firmware, you will not have the carrier's unlock portal in the settings app, you'll have to find other means to unlock your device if it happens to be SIM locked to the carrier.
 
-This guide was made by an administrator of the Samsung Discord. who goes by sadboi, All credits go to them :)
+Guide by sadboi
