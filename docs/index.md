@@ -27,7 +27,7 @@ Samsung Discord
 :::
 
 ::: slot tagline
-A website for the Samsung discord community
+A website for the Samsung Discord community
 :::
 
 ::: slot footer
