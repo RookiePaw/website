@@ -8,9 +8,8 @@ module.exports = (0, config_1.defineConfig4CustomTheme)(function (ctx) { return 
     title: "Home",
     themeConfig: {
         enableDarkMode: true,
-        repo: "https://github.com/SamsungDiscord/samsungdiscord.github.io",
+        repo: "https://github.com/SamsungDiscord/website",
         // logo: "/logo.svg",
-        prevLinks: false,
         nav: [
             { text: "Guide", link: "/guide/" },
             { text: "Forms", link: "/forms/" },

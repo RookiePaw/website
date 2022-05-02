@@ -1,5 +1,6 @@
 ---
 home: true
+logo: false
 actionText: Guides
 actionLink: /guide/
 subActionText: Appeals & Suggestions
@@ -15,10 +16,10 @@ features:
 sponsors:
   - title: Server Invite
     img: https://avatars.githubusercontent.com/u/45487711?s=200&v=4
-    link: https://samsungdiscord.github.io/guide
+    link: https://invite.samsungdiscord.co
   - title: Github repo
     img: https://avatars.githubusercontent.com/u/45487711?s=200&v=4
-    link: https://github.com/samsungdiscord/samsungdiscord.github.io
+    link: https://github.com/samsungdiscord/website
 sponsorsText: "Links:"
 ---
 
