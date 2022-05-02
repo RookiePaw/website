@@ -1,6 +1,7 @@
 # Firmware
 
-**If you’re here, you’re probably looking to flash a firmware for your phone! No need to worry if you have no experience flashing firmware, it isn’t too complicated. With experience in this process, I will try my best to explain how to do this in the most simple way possible. If you’ve never done this before, I recommend reviewing this guide multiple times to get a better grasp of what to do and reduce your chances of user error. I am not responsible for any potential damage to your device (if anything goes wrong, worst case scenario is that your device gets soft bricked, which is fixable via this process anyway :))**
+# Introduction 
+If you’re here, you’re probably looking to flash a firmware for your phone! No need to worry if you have no experience flashing firmware, it isn’t too complicated. With experience in this process, I will try my best to explain how to do this in the most simple way possible. If you’ve never done this before, I recommend reviewing this guide multiple times to get a better grasp of what to do and reduce your chances of user error. I am not responsible for any potential damage to your device (if anything goes wrong, worst case scenario is that your device gets soft bricked, which is fixable via this process anyway!
 
 
 ## Why flash a different firmware? 
