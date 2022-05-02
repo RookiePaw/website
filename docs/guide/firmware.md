@@ -1,6 +1,7 @@
 # Firmware
 
-**If you’re here, you’re probably looking to flash a firmware for your phone! No need to worry if you have no experience flashing firmware, it isn’t too complicated. With experience in this process, I will try my best to explain how to do this in the most simple way possible. If you’ve never done this before, I recommend reviewing this guide multiple times to get a better grasp of what to do and reduce your chances of user error. I am not responsible for any potential damage to your device (if anything goes wrong, worst case scenario is that your device gets soft bricked, which is fixable via this process anyway :))**
+# Introduction 
+If you’re here, you’re probably looking to flash a firmware for your phone! No need to worry if you have no experience flashing firmware, it isn’t too complicated. With experience in this process, I will try my best to explain how to do this in the most simple way possible. If you’ve never done this before, I recommend reviewing this guide multiple times to get a better grasp of what to do and reduce your chances of user error. I am not responsible for any potential damage to your device (if anything goes wrong, worst case scenario is that your device gets soft bricked, which is fixable via this process anyway!
 
 
 ## Why flash a different firmware? 
@@ -77,6 +78,6 @@ Downgrading is also possible, given that the version you are trying to flash is 
 ![binary](https://ushie.github.io/assets/BLversion.png)
 
 My baseband version is G960U1UES9FUA1, and my bootloader version is on 9 (denoted by the fifth value from the right, shown in bold). This means I can only flash firmware that is equal or over this version. If I were to try flashing an older firmware version with a previous bootloader version (8, 7, etc.), it would not work, so keep this in mind. Do not attempt to flash firmware on a lower bootloader version as it may soft brick your device. (P.S: Note that Frija downloads the latest available firmware for your device, so if you wish to downgrade, you would have to use SamFW, please remember to only use the Direct Download option as the Google Drive option is not recommended by me for specific reasons)
-Keep in mind that since you won't be on your carrier's firmware, you will not have the carrier's unlock portal in the settings app, you'll have to find other means to unlock your device if it happens to be sim locked to the carrier.
+Keep in mind that since you won't be on your carrier's firmware, you will not have the carrier's unlock portal in the settings app, you'll have to find other means to unlock your device if it happens to be SIM locked to the carrier.
 
-This guide was made by an administrator of the Samsung Discord. who goes by sadboi, All credits go to them :)
+Guide by sadboi
